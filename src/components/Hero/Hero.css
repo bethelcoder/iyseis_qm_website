@@ -1,0 +1,95 @@
+.Hero{
+    transform: translateY(150%);
+    margin-top: 50px;
+    transform: translateX(2%);
+    font-family: "Inter", serif;
+    display: flex;
+    justify-content: space-between;
+    overflow-x: hidden;
+    position: relative;
+}
+/* Hero left section */
+.Hero .left-sec{
+    transform: translateX(5%);
+}
+.Hero .headline{
+    font-size: 50px;
+    color: #111827;
+    margin-bottom: 25px;
+    margin-top: 70px;
+}
+.Hero .subheadline{
+    font-size: 20px;
+    color: #4B5563;
+    margin-bottom: 20px;
+}
+.Hero .CTA .btn-special{
+    margin-left: 15px;
+    background-color: #E5E7EB;
+    /* border: 3px solid #2563EB; */
+    color: #111827;
+    transition: .3s;
+}
+.Hero .CTA .btn-special:hover{
+    background-color: #D1D5DB;
+}
+/* Hero right section */
+.Hero .hero-Img{
+    width: 560px;
+    height: 560px;
+    margin-top: -30px;
+    margin-right: 60px;
+}
+/* Styled circles */
+.vector-circle{
+    position: absolute;
+    border-radius: 50%;
+    opacity: 0.5;
+    z-index: -1;
+    transition: box-shadow 0.3s ease-in-out;
+    pointer-events: auto;
+}
+.circle-blue {
+    top: 3.4rem;
+    left: 6.8rem;
+    width: 6rem;
+    height: 6rem;
+    background-color: #93C5FD;
+    pointer-events: auto;
+}
+.circle-yellow {
+    top: 50%;
+    right: 2.5rem;
+    width: 4rem;
+    height: 4rem;
+    background-color: #FACC15;
+  }
+.circle-pink {
+    bottom: 30%;
+    left: 19%;
+    width: 5rem;
+    height: 5rem;
+    background-color: #F472B6;
+  }
+.circle-green {
+    bottom: 3.25rem;
+    right: 33%;
+    width: 6rem;
+    height: 6rem;
+    background-color: #4ADE80;
+  }
+  /* Hover effects on circles */
+  .circle-blue:hover {
+    box-shadow: 0px 0px 20px 5px rgba(147, 197, 253, 0.7);
+  }
+  .circle-yellow:hover {
+    box-shadow: 0px 0px 20px 5px rgba(250, 204, 21, 0.7);
+  }
+  
+  .circle-pink:hover {
+    box-shadow: 0px 0px 20px 5px rgba(244, 114, 182, 0.7);
+  }
+  
+  .circle-green:hover {
+    box-shadow: 0px 0px 20px 5px rgba(74, 222, 128, 0.7);
+  }

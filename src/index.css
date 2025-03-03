@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  overflow-x: hidden;
+}
+.container{
+  padding: 15px 55px;
+}
+.btn{
+  background-color: #2563EB;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  padding: 14px 17px;
+  transition: .3s;
+}
+.btn:hover{
+  background-color: #1D4ED8;
+  transform: scale(1.05);
+}
